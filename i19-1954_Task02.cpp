@@ -15,16 +15,16 @@ int main()
 
 {
     srand(time(NULL));
-    int array_1[10] = {5} , x ,i  ;
+    int array_1[3] = {0,0,0} , x ,i  ;
 
-    for (i=1 ; i<10 ; i++)
+    for (i=1 ; i<3 ; i++)
 
     {
-        array_1[i]=rand()%14+1 ;
+        array_1[i]=rand()%9+1 ;
 
     }
 
-    for (i=0 ; i<10 ; i++)
+    for (i=0 ; i<3 ; i++)
     {
         x = array_1[i] ;
         cout << array_1[i] <<"\t" ;
